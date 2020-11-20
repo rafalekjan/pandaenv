@@ -5401,3 +5401,111 @@ Node ID: '73a64fb2139e'
 2020-11-20T18:25:45.366Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [ddb9d29410c58e1c] [o.a.e.UploadServiceImpl:439   ] [http-nio-8081-exec-6] - Deploy to 'libs-snapshot-local:pl/pandait/panda/maven-metadata.xml' Content-Length: 391 (estimation)
 2020-11-20T18:25:45.398Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [a4ea6c47829b561e] [o.a.e.UploadServiceImpl:316   ] [http-nio-8081-exec-3] - Deploy to 'libs-snapshot-local:pl/pandait/panda/maven-metadata.xml.sha1' Content-Length: 40
 2020-11-20T18:25:45.408Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [d00e1f9874ec624e] [o.a.e.UploadServiceImpl:316   ] [ttp-nio-8081-exec-10] - Deploy to 'libs-snapshot-local:pl/pandait/panda/maven-metadata.xml.md5' Content-Length: 32
+2020-11-20T18:35:08.604L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardServer] [org.apache.catalina.core.StandardServer await] - A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2020-11-20T18:35:08.607L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol pause] - Pausing ProtocolHandler ["http-nio-8081"]
+2020-11-20T18:35:08.613L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol pause] - Pausing ProtocolHandler ["http-nio-127.0.0.1-8091"]
+2020-11-20T18:35:08.620L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol pause] - Pausing ProtocolHandler ["http-nio-127.0.0.1-8040"]
+2020-11-20T18:35:08.622L [35m[tomct][0m [INFO ] [                ] [org.apache.catalina.core.StandardService] [org.apache.catalina.core.StandardService stopInternal] - Stopping service [Catalina]
+2020-11-20T18:35:08.821Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [ifactoryApplicationContext:558] [ocalhost-startStop-5] - Artifactory application context set to NOT READY by destroy
+2020-11-20T18:35:08.861Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [o.j.c.w.FileWatcher:218       ] [Thread-6            ] - Watch service ended on destroy
+2020-11-20T18:35:08.861Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [o.j.c.w.FileWatcher:225       ] [Thread-6            ] - End watch of folder configurations
+2020-11-20T18:35:08.889Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [ifactoryApplicationContext:375] [ocalhost-startStop-5] - Destroying 44 Artifactory Spring Beans
+2020-11-20T18:35:08.892Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Backup from task service handler.
+2020-11-20T18:35:08.897Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Indexer from task service handler.
+2020-11-20T18:35:08.902Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Garbage Collector from task service handler.
+2020-11-20T18:35:08.909Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [o.a.m.f.MetricsServiceImpl:226] [ocalhost-startStop-5] - Stopped metric service.
+2020-11-20T18:35:08.910Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [.w.NodeEventTaskManagerImpl:59] [ocalhost-startStop-5] - Removing dispatcher thread for operator 'metadata-operator-events'
+2020-11-20T18:35:08.924Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Artifact Cleanup from task service handler.
+2020-11-20T18:35:09.446Z [1;32m[jfrt ][0;39m [34m[INFO ][0;39m [                ] [actorySchedulerFactoryBean:845] [ocalhost-startStop-5] - Shutting down Quartz Scheduler
+2020-11-20T18:35:09.487Z [1;32m[jfrt ][0;39m [31m[WARN ][0;39m [                ] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-5] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2020-11-20T18:35:09.644Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-11-20T18:35:09.650Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-11-20T18:35:09.650Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020/11/20 18:35:11 httputil: ReverseProxy read error during body copy: stream error: stream ID 301; CANCEL
+2020-11-20T18:35:11.326Z [34;1m[jfmd ][0m [31;1m[ERROR][0m [3a0ea958ba24f848] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2020-11-20T18:35:11.425Z [34;1m[jfmd ][0m [31m[WARN ][0m [3a0ea958ba24f848] [compatibility_logger.go:25    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2020-11-20T18:35:11.441L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol stop] - Stopping ProtocolHandler ["http-nio-8081"]
+2020-11-20T18:35:11.443Z [34;1m[jfmd ][0m [31m[WARN ][0m [3a0ea958ba24f848] [compatibility_logger.go:25    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2020-11-20T18:35:11.446L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol stop] - Stopping ProtocolHandler ["http-nio-127.0.0.1-8091"]
+2020-11-20T18:35:11.449L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol stop] - Stopping ProtocolHandler ["http-nio-127.0.0.1-8040"]
+2020-11-20T18:35:11.451L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol destroy] - Destroying ProtocolHandler ["http-nio-8081"]
+2020-11-20T18:35:11.463L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol destroy] - Destroying ProtocolHandler ["http-nio-127.0.0.1-8091"]
+2020-11-20T18:35:11.465Z [34;1m[jfmd ][0m [31m[WARN ][0m [3a0ea958ba24f848] [compatibility_logger.go:25    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2020-11-20T18:35:11.467L [35m[tomct][0m [INFO ] [                ] [org.apache.coyote.http11.Http11NioProtocol] [org.apache.coyote.AbstractProtocol destroy] - Destroying ProtocolHandler ["http-nio-127.0.0.1-8040"]
+2020-11-20T18:35:11.472Z [36m[jfrou][0m [31;1m[ERROR][0m [7d72ab1f81329385] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": read tcp 127.0.0.1:39658->127.0.0.1:8040: read: connection reset by peer
+2020-11-20T18:35:11.507Z [34;1m[jfmd ][0m [31m[WARN ][0m [3a0ea958ba24f848] [compatibility_logger.go:25    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2020-11-20T18:35:11.596Z [34;1m[jfmd ][0m [31m[WARN ][0m [3a0ea958ba24f848] [compatibility_logger.go:25    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2020-11-20T18:35:11.619Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on :8082
+2020-11-20T18:35:11.620Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8046
+2020-11-20T18:35:11.620Z [36m[jfrou][0m [34m[INFO ][0m [                ] [server_configuration.go:61    ] [main                ] - Server configuration reloaded on localhost:8049
+2020-11-20T18:35:11.762Z [34;1m[jfmd ][0m [31;1m[ERROR][0m [3a0ea958ba24f848] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2020-11-20T18:35:12.085Z [34;1m[jfmd ][0m [31;1m[ERROR][0m [3a0ea958ba24f848] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+Exception in thread "grpc-nio-worker-ELG-1-1" Exception in thread "grpc-nio-worker-ELG-1-2" java.lang.NoClassDefFoundError: io/netty/buffer/PoolArena$1
+at io.netty.buffer.PoolArena.freeChunk(PoolArena.java:296)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.freeEntry(PoolThreadCache.java:465)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.free(PoolThreadCache.java:431)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.free(PoolThreadCache.java:423)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:280)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:271)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:242)
+at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.onRemoval(PooledByteBufAllocator.java:491)
+at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.onRemoval(PooledByteBufAllocator.java:458)
+at io.netty.util.concurrent.FastThreadLocal.remove(FastThreadLocal.java:256)
+at io.netty.util.concurrent.FastThreadLocal.removeAll(FastThreadLocal.java:67)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:1042)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.buffer.PoolArena$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1368)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1218)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1180)
+... 15 more
+Exception in thread "grpc-nio-boss-ELG-3-1" Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [io.netty.buffer.PoolArena$1]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1378)
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1366)
+... 17 more
+java.lang.NoClassDefFoundError: ch/qos/logback/classic/spi/ThrowableProxy
+at ch.qos.logback.classic.spi.LoggingEvent.<init>(LoggingEvent.java:119)
+at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:419)
+at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+at ch.qos.logback.classic.Logger.log(Logger.java:765)
+at io.netty.util.internal.logging.LocationAwareSlf4JLogger.log(LocationAwareSlf4JLogger.java:46)
+at io.netty.util.internal.logging.LocationAwareSlf4JLogger.error(LocationAwareSlf4JLogger.java:249)
+at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:843)
+at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:498)
+at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:604)
+at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:96)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:1051)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.classic.spi.ThrowableProxy]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1368)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1218)
+at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1180)
+... 15 more
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [ch.qos.logback.classic.spi.ThrowableProxy]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1378)
+at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1366)
+... 17 more
+java.lang.NoClassDefFoundError: io/netty/buffer/PoolArena$1
+at io.netty.buffer.PoolArena.freeChunk(PoolArena.java:296)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.freeEntry(PoolThreadCache.java:465)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.free(PoolThreadCache.java:431)
+at io.netty.buffer.PoolThreadCache$MemoryRegionCache.free(PoolThreadCache.java:423)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:280)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:271)
+at io.netty.buffer.PoolThreadCache.free(PoolThreadCache.java:242)
+at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.onRemoval(PooledByteBufAllocator.java:491)
+at io.netty.buffer.PooledByteBufAllocator$PoolThreadLocalCache.onRemoval(PooledByteBufAllocator.java:458)
+at io.netty.util.concurrent.FastThreadLocal.remove(FastThreadLocal.java:256)
+at io.netty.util.concurrent.FastThreadLocal.removeAll(FastThreadLocal.java:67)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:1042)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:834)
+2020-11-20T18:35:12.733Z [34;1m[jfmd ][0m [31;1m[ERROR][0m [3a0ea958ba24f848] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2020-11-20T18:35:14.004Z [36m[jfrou][0m [31;1m[ERROR][0m [7922b6d1662bac70] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-20T18:35:14.018Z [34;1m[jfmd ][0m [31;1m[ERROR][0m [3a0ea958ba24f848] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]

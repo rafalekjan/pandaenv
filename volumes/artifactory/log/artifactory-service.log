@@ -7753,3 +7753,15 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 2020-11-20T18:25:45.366Z [jfrt ] [INFO ] [ddb9d29410c58e1c] [o.a.e.UploadServiceImpl:439   ] [http-nio-8081-exec-6] - Deploy to 'libs-snapshot-local:pl/pandait/panda/maven-metadata.xml' Content-Length: 391 (estimation)
 2020-11-20T18:25:45.398Z [jfrt ] [INFO ] [a4ea6c47829b561e] [o.a.e.UploadServiceImpl:316   ] [http-nio-8081-exec-3] - Deploy to 'libs-snapshot-local:pl/pandait/panda/maven-metadata.xml.sha1' Content-Length: 40
 2020-11-20T18:25:45.408Z [jfrt ] [INFO ] [d00e1f9874ec624e] [o.a.e.UploadServiceImpl:316   ] [ttp-nio-8081-exec-10] - Deploy to 'libs-snapshot-local:pl/pandait/panda/maven-metadata.xml.md5' Content-Length: 32
+2020-11-20T18:35:08.821Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:558] [ocalhost-startStop-5] - Artifactory application context set to NOT READY by destroy
+2020-11-20T18:35:08.861Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:218       ] [Thread-6            ] - Watch service ended on destroy
+2020-11-20T18:35:08.861Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:225       ] [Thread-6            ] - End watch of folder configurations
+2020-11-20T18:35:08.889Z [jfrt ] [INFO ] [                ] [ifactoryApplicationContext:375] [ocalhost-startStop-5] - Destroying 44 Artifactory Spring Beans
+2020-11-20T18:35:08.892Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Backup from task service handler.
+2020-11-20T18:35:08.897Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Indexer from task service handler.
+2020-11-20T18:35:08.902Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Garbage Collector from task service handler.
+2020-11-20T18:35:08.909Z [jfrt ] [INFO ] [                ] [o.a.m.f.MetricsServiceImpl:226] [ocalhost-startStop-5] - Stopped metric service.
+2020-11-20T18:35:08.910Z [jfrt ] [INFO ] [                ] [.w.NodeEventTaskManagerImpl:59] [ocalhost-startStop-5] - Removing dispatcher thread for operator 'metadata-operator-events'
+2020-11-20T18:35:08.924Z [jfrt ] [INFO ] [                ] [askServiceDescriptorHandler:44] [ocalhost-startStop-5] - Removing all job Artifact Cleanup from task service handler.
+2020-11-20T18:35:09.446Z [jfrt ] [INFO ] [                ] [actorySchedulerFactoryBean:845] [ocalhost-startStop-5] - Shutting down Quartz Scheduler
+2020-11-20T18:35:09.487Z [jfrt ] [WARN ] [                ] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-5] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
