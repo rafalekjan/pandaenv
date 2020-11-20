@@ -1,0 +1,10 @@
+commit 69efb5bd86bc6fd62b7ac5c7938d9b3437396ec8
+tree 344e65c07b5d5c4725fa398f139c49a249e30699
+parent ae27beae7b3816528a2f498fca34fab7797eddc0
+author Your Name <you@example.com> 2020-11-06 17:15:33 +0000
+committer Your Name <you@example.com> 2020-11-06 17:15:33 +0000
+
+    added pom file
+
+
+:100644 100644 6f4ab3cf779f7f0f36c00ad6df6518040a395c6d bd1db2f759951d7a64616e351cbf358832625293 M	pom.xml

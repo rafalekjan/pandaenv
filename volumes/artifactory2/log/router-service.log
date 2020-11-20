@@ -1,0 +1,29 @@
+2020-11-20T18:02:51.411Z [jfrou] [INFO ] [5301b5d99ed41860] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3948 Home: /opt/jfrog/artifactory
+2020-11-20T18:02:51.412Z [jfrou] [INFO ] [5301b5d99ed41860] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.23.0.2
+2020-11-20T18:02:56.424Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout
+2020-11-20T18:03:01.438Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout
+2020-11-20T18:03:06.443Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 15 seconds with 2m0s timeout
+2020-11-20T18:03:11.454Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 20 seconds with 2m0s timeout
+2020-11-20T18:03:16.457Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 25 seconds with 2m0s timeout
+2020-11-20T18:03:21.463Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 30 seconds with 2m0s timeout
+2020-11-20T18:03:26.471Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 35 seconds with 2m0s timeout
+2020-11-20T18:03:31.474Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 40 seconds with 2m0s timeout
+2020-11-20T18:03:36.484Z [jfrou] [INFO ] [5301b5d99ed41860] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 45 seconds with 2m0s timeout
+2020-11-20T18:03:41.487Z [jfrou] [INFO ] [5301b5d99ed41860] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-11-20T18:03:41.491Z [jfrou] [INFO ] [5301b5d99ed41860] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01eqkd6zhk8r4xcexy3b01r3ws
+2020-11-20T18:03:41.491Z [jfrou] [INFO ] [5301b5d99ed41860] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: c95907176e07
+2020-11-20T18:03:41.569Z [jfrou] [INFO ] [5301b5d99ed41860] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T18:03:43.419Z [jfrou] [INFO ] [5301b5d99ed41860] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-20T18:03:50.337Z [jfrou] [INFO ] [5301b5d99ed41860] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-20T18:03:50.338Z [jfrou] [INFO ] [5301b5d99ed41860] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T18:03:50.338Z [jfrou] [INFO ] [5301b5d99ed41860] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-20T18:03:50.376Z [jfrou] [INFO ] [5301b5d99ed41860] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 58.969 seconds. Listening on port: 8082
+2020-11-20T18:04:15.405Z [jfrou] [INFO ] [1253b3511838fa04] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 83.998 seconds   ###
+###############################################################
+2020-11-20T18:14:59.927Z [jfrou] [ERROR] [a491b21bc8066a8 ] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": read tcp 127.0.0.1:36252->127.0.0.1:8040: read: connection reset by peer
+2020-11-20T18:15:02.785Z [jfrou] [ERROR] [6756d6cc4bedc9e1] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused

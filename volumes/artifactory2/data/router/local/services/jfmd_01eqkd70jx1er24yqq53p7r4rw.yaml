@@ -1,0 +1,11 @@
+endpoints:
+  - paths:
+      - match: /metadata/(.*)
+        replace: /$1
+    port: 8086
+    protocol: 1
+healthcheckendpoint:
+    path: /api/v1/system/ping
+    port: 8086
+nodeid: c95907176e07
+serviceid: jfmd@01eqkd70jx1er24yqq53p7r4rw

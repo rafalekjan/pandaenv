@@ -1,0 +1,11 @@
+commit f9844fc6fbcee00320da5950692063f21956c772
+tree d1f8e3f22222725de004d206171688a58bf36fbf
+parent 89a6685358ba8f6afbbb88da47caddbc82696a89
+author Your Name <you@example.com> 2020-11-09 18:55:48 +0000
+committer Your Name <you@example.com> 2020-11-09 18:55:48 +0000
+
+    version3
+
+
+:100644 100644 e77c23cb846202eb6cdfedecb7ecb895fa56c57e f4f07ab17531904c8ca75c4d518b0144f90a63f5 M	pom.xml
+:100644 100644 edbfe4028bc09354f2a3f505e60ab777e1b4a297 99966baf3618dd1140b21982bfd70459513ab945 M	src/main/resources/application.properties

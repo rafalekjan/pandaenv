@@ -1,0 +1,19 @@
+commit 89a6685358ba8f6afbbb88da47caddbc82696a89
+tree 9a3bce66015df9a5d510cb37ed671045c49d4d0b
+parent e73d8be64e26c0142d445c9a8dd6c0b248ceef62
+author Your Name <you@example.com> 2020-11-09 18:48:01 +0000
+committer Your Name <you@example.com> 2020-11-09 18:48:01 +0000
+
+    version2
+
+
+:100644 100644 653013cec38cc00c17b7cda41986aaf94a5c009c e77c23cb846202eb6cdfedecb7ecb895fa56c57e M	pom.xml
+:100644 100644 ef9dc53265c8c91a4dafaa9f86de0221071d094e f99b84f4a1e70280f73f5537bd5f16687da4ad0f M	target/maven-archiver/pom.properties
+:100644 100644 dfa0cac7bf396e024635990df4c358378e26856e 8be5e343d5e595af663fa744ee08d62397b3de81 R099	target/panda-0.0.2-SNAPSHOT.jar	target/panda-0.0.3-SNAPSHOT.jar
+:100644 100644 36ddae6139ebf074e965bb681c89dabdefa5aa00 430e13a9cd9cc9e1c050c773c3fba65562fdc8ef R099	target/panda-0.0.2-SNAPSHOT.jar.original	target/panda-0.0.3-SNAPSHOT.jar.original
+:100644 100644 ad69759ed57f6b1fd1bb0725922b949af27a3b3d e6e1331185cc4813a064a9850f1aadfa1e94f337 M	target/surefire-reports/TEST-pl.pandait.panda.HelloControllerTest.xml
+:000000 100644 0000000000000000000000000000000000000000 182fb43098dcbcd292ec2cc0bb90a687c19485f1 A	target/surefire-reports/TEST-pl.pandait.panda.PandaApplicationSeleniumTest.xml
+:100644 100644 e648956f31736a5ff467f1958ae562c4988f8778 aa0652bdc9aef124a64da55e7bae7131d15a1028 M	target/surefire-reports/TEST-pl.pandait.panda.PandaApplicationTests.xml
+:100644 100644 c79d80b0c85f6eaa5aed1b5596c629e4ba8ebe5e a21096dc510f31ddf21b391c365738aa64c9b7a9 M	target/surefire-reports/pl.pandait.panda.HelloControllerTest.txt
+:000000 100644 0000000000000000000000000000000000000000 3190e5160cc0fa1636d1839ab1a0f478db16067b A	target/surefire-reports/pl.pandait.panda.PandaApplicationSeleniumTest.txt
+:100644 100644 ef2c6882d3041e1d1045d0d82e759f433a00b3b6 4ab068e4024e9759d4337fadf4a95dbad150f1d9 M	target/surefire-reports/pl.pandait.panda.PandaApplicationTests.txt

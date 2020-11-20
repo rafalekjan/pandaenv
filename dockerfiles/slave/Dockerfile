@@ -1,10 +1,10 @@
 FROM ubuntu:18.04
 WORKDIR /home
-RUN apt-get update && \
+COPY agent.jar .
+RUN apt-get update -y && \
 apt-get install curl \
 openjdk-11-jdk \
 git \
-maven -y && \
-adduser --disabled-password --gecos "" Jenkins && \
-curl -fsSL https://get.docker.com -o get-docker.sh && \
-sh get-docker.sh
+maven \
+docker.io -y
+RUN adduser --disabled-password --gecos "" jenkins

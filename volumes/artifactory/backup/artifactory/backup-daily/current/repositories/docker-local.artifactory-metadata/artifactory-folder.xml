@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-folder>
+  <repoPath>
+    <repoKey>docker-local</repoKey>
+    <path></path>
+    <folder>true</folder>
+  </repoPath>
+  <name></name>
+  <created>1604084596617</created>
+  <lastModified>1604084596617</lastModified>
+  <additionalInfo>
+    <lastUpdated>1604084596617</lastUpdated>
+  </additionalInfo>
+</artifactory-folder>

@@ -1,0 +1,100 @@
+2020-11-20T18:02:56.708Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout [init]
+2020-11-20T18:03:01.724Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout [init]
+2020-11-20T18:03:06.745Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 15 seconds with 2m0s timeout [init]
+2020-11-20T18:03:11.747Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 20 seconds with 2m0s timeout [init]
+2020-11-20T18:03:16.751Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 25 seconds with 2m0s timeout [init]
+2020-11-20T18:03:21.753Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 30 seconds with 2m0s timeout [init]
+2020-11-20T18:03:26.757Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 35 seconds with 2m0s timeout [init]
+2020-11-20T18:03:31.765Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 40 seconds with 2m0s timeout [init]
+2020-11-20T18:03:36.770Z [jfmd ] [INFO ] [6a5917d916027f2c] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 45 seconds with 2m0s timeout [init]
+2020-11-20T18:03:41.773Z [jfmd ] [INFO ] [6a5917d916027f2c] [database_bearer.go:100        ] [main                ] - Connecting to (db config: {sqlite /opt/jfrog/artifactory/var/data/metadata/sqlite.db?_fk=yes&_busy_timeout=5000&_txlock=immediate&cache=shared}) [database]
+2020-11-20T18:03:41.819Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:60                ] [main                ] - Applying 42 migrations files [database]
+2020-11-20T18:03:41.829Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v001_packages.sql successfully applied (4 statements) [database]
+2020-11-20T18:03:41.838Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v002_versions.sql successfully applied (5 statements) [database]
+2020-11-20T18:03:41.847Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v003_package_qualifiers.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:41.859Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v004_package_user_properties.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:41.878Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v005_package_tags.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:41.898Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v006_package_stats.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:41.909Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v007_sources.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:41.929Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v008_package_info_sources.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:41.947Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v009_servers.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:41.964Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v010_version_qualifiers.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:41.984Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v011_version_user_properties.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.016Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v012_version_tags.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.040Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v013_version_stats.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.057Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v014_licenses.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:42.074Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v015_files.sql successfully applied (5 statements) [database]
+2020-11-20T18:03:42.089Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v016_file_qualifiers.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.110Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v017_package_licenses.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.133Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v018_version_licenses.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.148Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v019_files_versions.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.162Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v020_repo.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:42.172Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v021_lead_paths.sql successfully applied (4 statements) [database]
+2020-11-20T18:03:42.191Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v022_package_descriptions.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.208Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v023_contributors.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:42.225Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v024_version_contributors.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.239Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v025_sharedconfigs.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:42.253Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v026_version_vulns.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.272Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v027_package_vulns.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.290Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v028_versions_ordinal_index.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.303Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v029_qualifier_user_prop_length.sql successfully applied (0 statements) [database]
+2020-11-20T18:03:42.317Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v030_version_addcolumn_size.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.334Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v031_package_add_base_model_complete.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.380Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v032_rename_stats_columns.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.400Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v033_rename_size_column.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.432Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v034_ver_stats_fk_ver_repos_fk.sql successfully applied (11 statements) [database]
+2020-11-20T18:03:42.440Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v035_files_unique_name_sha256.sql successfully applied (4 statements) [database]
+2020-11-20T18:03:42.450Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v036_version_add_modified.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.464Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v037_version_add_base_model_complete.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.483Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v038_file_targets.sql successfully applied (2 statements) [database]
+2020-11-20T18:03:42.497Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v039_file_targets_fk.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.509Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v042_async_data_converter.sql successfully applied (5 statements) [database]
+2020-11-20T18:03:42.528Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v043_add_mark_for_deletion.sql successfully applied (3 statements) [database]
+2020-11-20T18:03:42.546Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:157               ] [main                ] - Migration v044_add_dependant_task.sql successfully applied (1 statements) [database]
+2020-11-20T18:03:42.556Z [jfmd ] [INFO ] [6a5917d916027f2c] [migrator.go:66                ] [main                ] - Applied 105 database migrations statements [database]
+2020-11-20T18:03:42.556Z [jfmd ] [INFO ] [6a5917d916027f2c] [application.go:59             ] [main                ] - Metadata (jfmd) service initialization started. Version: 7.10.3 Revision: 71003900 PID: 4106 Home: /opt/jfrog/artifactory/var [app_initializer]
+2020-11-20T18:03:42.574Z [jfmd ] [INFO ] [6a5917d916027f2c] [server_bearer.go:158          ] [main                ] - Created service_id and pushed to store: jfmd@01eqkd70jx1er24yqq53p7r4rw [ServerInit]
+2020-11-20T18:03:46.591Z [jfmd ] [INFO ] [6a5917d916027f2c] [accessclient.go:55            ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Get "http://localhost:8046/access/api/v1/system/ping": dial tcp 127.0.0.1:8046: connect: connection refused [access_client]
+2020-11-20T18:03:51.599Z [jfmd ] [INFO ] [6a5917d916027f2c] [accessclient.go:55            ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Error while trying to connect to local router at address 'http://localhost:8046/access': Failed to access :http://localhost:8046/access/api/v1/system/ping return status code : 404 [access_client]
+2020-11-20T18:03:52.756Z [jfmd ] [INFO ] [6a5917d916027f2c] [accessclient.go:55            ] [main                ] - Cluster join: Successfully joined the cluster [access_client]
+2020-11-20T18:03:52.756Z [jfmd ] [INFO ] [6a5917d916027f2c] [accessclient.go:55            ] [main                ] - Executing Router register at: localhost:8046 [access_client]
+2020-11-20T18:03:52.835Z [jfmd ] [INFO ] [6a5917d916027f2c] [router_middlewares.go:57      ] [main                ] - 
+Metadata Info
+========================
+
+Shared.NewRelic.EnableDebugLog                       | false
+Logging.Application.Rotation.IntervalSeconds         | 0
+Logging.Request.Rotation.MaxAgeDays                  | 365
+AccessClient.JoinTimeout                             | 3m0s
+Profiling.Enabled                                    | false
+Port                                                 | 8086
+Logging.Application.Rotation.MaxAgeDays              | 365
+Logging.Application.Rotation.Compress                | true
+Logging.Request.Rotation.Compress                    | true
+Logging.Request.Rotation.IntervalSeconds             | 0
+Shared.NewRelic.AppName                              | 
+Logging.Application.Rotation.MaxSizeMb               | 25
+Database.Type                                        | 1
+AccessClient.Url                                     | http://localhost:8081/access
+Keys.ReadAttempts                                    | 120
+Keys.ReadIntervalDuration                            | 1s
+Logging.Application.FilePath                         | metadata-service.log
+Logging.Application.Level                            | info
+Logging.Application.Rotation.MaxFiles                | 10
+Logging.Request.FilePath                             | metadata-request.log
+Logging.Request.Rotation.MaxSizeMb                   | 25
+Logging.Request.Rotation.MaxFiles                    | 10
+Shared.NewRelic.Enabled                              | false
+Shared.NewRelic.DistributedTracerEnabled             | true
+
+2020-11-20T18:03:52.835Z [jfmd ] [INFO ] [6a5917d916027f2c] [router_middlewares.go:58      ] [main                ] - Metadata (jfmd) service initialization completed in 10.278 seconds. Listening on port: 8086 [router]
+2020-11-20T18:14:59.808Z [jfmd ] [ERROR] [6a5917d916027f2c] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Internal) - resubscribe expected [access_client]
+2020-11-20T18:14:59.822Z [jfmd ] [WARN ] [6a5917d916027f2c] [compatibility_logger.go:25    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2020-11-20T18:14:59.835Z [jfmd ] [WARN ] [6a5917d916027f2c] [compatibility_logger.go:25    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - target server is unavailable - if issue persists check communication with access [access_client]
+2020-11-20T18:14:59.856Z [jfmd ] [ERROR] [6a5917d916027f2c] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2020-11-20T18:14:59.898Z [jfmd ] [ERROR] [6a5917d916027f2c] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2020-11-20T18:14:59.979Z [jfmd ] [ERROR] [6a5917d916027f2c] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2020-11-20T18:15:00.142Z [jfmd ] [ERROR] [6a5917d916027f2c] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2020-11-20T18:15:00.464Z [jfmd ] [ERROR] [6a5917d916027f2c] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2020-11-20T18:15:01.106Z [jfmd ] [ERROR] [6a5917d916027f2c] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]
+2020-11-20T18:15:02.387Z [jfmd ] [ERROR] [6a5917d916027f2c] [compatibility_logger.go:28    ] [main                ] - Refreshing permissions cache invalidation gRPC stream - got an error (status code: Unimplemented) - resubscribe expected [access_client]

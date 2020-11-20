@@ -1,0 +1,30 @@
+2020-11-20T18:21:50.603Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.10.2 Revision: 10000002 PID: 3928 Home: /opt/jfrog/artifactory
+2020-11-20T18:21:50.606Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - attempting pinging artifactory for 180 retires and 1.0s interval for total of 3 minutes
+2020-11-20T18:21:59.760Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 10
+2020-11-20T18:21:59.785Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 10 failed with code : ECONNREFUSED
+2020-11-20T18:22:09.892Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 20
+2020-11-20T18:22:09.895Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 20 failed with code : ECONNREFUSED
+2020-11-20T18:22:19.985Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 30
+2020-11-20T18:22:19.990Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 30 failed with code : ECONNREFUSED
+2020-11-20T18:22:30.134Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 40
+2020-11-20T18:22:30.139Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 40 failed with code : ECONNREFUSED
+2020-11-20T18:22:40.271Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 50
+2020-11-20T18:22:40.285Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 50 failed with code : ECONNREFUSED
+2020-11-20T18:22:50.408Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 60
+2020-11-20T18:22:50.422Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 60 failed with code : ECONNREFUSED
+2020-11-20T18:23:00.591Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 70
+2020-11-20T18:23:00.595Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 70 failed with code : ECONNREFUSED
+2020-11-20T18:23:10.697Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 80
+2020-11-20T18:23:10.719Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 80 failed with code : undefined
+2020-11-20T18:23:20.806Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 90
+2020-11-20T18:23:20.810Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 90 failed with code : undefined
+2020-11-20T18:23:30.976Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 100
+2020-11-20T18:23:31.000Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 100 failed with code : undefined
+2020-11-20T18:23:41.189Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory, attempt number 110
+2020-11-20T18:23:41.342Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - pinging artifactory attempt number 110 failed with code : undefined
+2020-11-20T18:23:43.711Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - artifactory was pinged successfully
+2020-11-20T18:23:43.712Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - setting service id - jffe@000
+2020-11-20T18:23:43.869Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-20T18:23:43.969Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2020-11-20T18:23:45.441Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Recurring tasks started
+2020-11-20T18:23:47.804Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 117.20 seconds. Listening on port: port 8070

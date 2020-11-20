@@ -1,0 +1,3 @@
+2020-10-30T17:29:12.079Z [jfrt ] [34m[INFO ][0;39m [a67c66a4b83952e0] [.a.c.m.ConanV2MigrationJob:203] [art-exec-7          ] - No Conan v1 path found in db - migration will not run, attempting finalization.
+2020-10-30T17:29:12.089Z [jfrt ] [34m[INFO ][0;39m [a67c66a4b83952e0] [.a.c.m.ConanV2MigrationJob:410] [art-exec-7          ] - Successfully updated DB configs table for migration finalized.
+2020-10-30T17:29:12.097Z [jfrt ] [34m[INFO ][0;39m [a67c66a4b83952e0] [.a.c.m.ConanV2MigrationJob:395] [art-exec-7          ] - artifactory.ConanV2MigrationJob#6f6ed5b1-7dd7-49a9-8c40-e721a26e2490: all nodes reached minimal version '6.9.0-m001', continuing execution

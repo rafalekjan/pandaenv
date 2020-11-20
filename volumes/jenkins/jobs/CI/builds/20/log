@@ -1,0 +1,165 @@
+Started by user [8mha:////4O41tps2LRB9QIC9ABXQkbMIc7S01ltnQdyK3ISIGy2vAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9gsS8lEQAm4MTyMAAAAA=[0mPandaIT
+Running as SYSTEM
+Building on master in workspace /var/jenkins_home/workspace/CI
+The recommended git tool is: NONE
+using credential GitHub
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rafalekjan/panda_aplication.git # timeout=10
+Fetching upstream changes from https://github.com/rafalekjan/panda_aplication.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials Klucz do githuba
+ > git fetch --tags --force --progress -- https://github.com/rafalekjan/panda_aplication.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision 8eddd14a4d203ff675524d41eb60335737f0f12b (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8eddd14a4d203ff675524d41eb60335737f0f12b # timeout=10
+Commit message: "files"
+ > git rev-list --no-walk f9844fc6fbcee00320da5950692063f21956c772 # timeout=10
+[CI] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/auto_maven/bin/mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/main/resources
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/main/resources
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/test/resources
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default) @ panda ---
+[INFO] No tests to run.
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
+[INFO] Building jar: /var/jenkins_home/workspace/CI/target/panda-0.0.5-SNAPSHOT.jar
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ panda ---
+[INFO] Installing /var/jenkins_home/workspace/CI/target/panda-0.0.5-SNAPSHOT.jar to /var/jenkins_home/.m2/repository/pl/pandait/panda/0.0.5-SNAPSHOT/panda-0.0.5-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/workspace/CI/pom.xml to /var/jenkins_home/.m2/repository/pl/pandait/panda/0.0.5-SNAPSHOT/panda-0.0.5-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.923 s
+[INFO] Finished at: 2020-11-09T19:18:10Z
+[INFO] ------------------------------------------------------------------------
+[CI] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/auto_maven/bin/mvn test -Pselenium
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/main/resources
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/main/resources
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/test/resources
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default) @ panda ---
+[INFO] No tests to run.
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.089 s
+[INFO] Finished at: 2020-11-09T19:18:14Z
+[INFO] ------------------------------------------------------------------------
+using settings config with name MavenSettings
+Replacing all maven server entries not found in credentials list is true
+[CI] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/auto_maven/bin/mvn -s /tmp/settings17804179959233509584.xml deploy
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/main/resources
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/main/resources
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/CI/src/test/resources
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default) @ panda ---
+[INFO] No tests to run.
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ panda ---
+[INFO] Installing /var/jenkins_home/workspace/CI/target/panda-0.0.5-SNAPSHOT.jar to /var/jenkins_home/.m2/repository/pl/pandait/panda/0.0.5-SNAPSHOT/panda-0.0.5-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/workspace/CI/pom.xml to /var/jenkins_home/.m2/repository/pl/pandait/panda/0.0.5-SNAPSHOT/panda-0.0.5-SNAPSHOT.pom
+[INFO] 
+[8mha:////4A2XxUCaCcjcJArUByFaRjEeuxmvF7x5mJoFvoTRWL2AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ panda ---
+Downloading from artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/0.0.5-SNAPSHOT/maven-metadata.xml
+Uploading to artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/0.0.5-SNAPSHOT/panda-0.0.5-20201109.191820-1.jar
+Progress (1): 0.3/27 MBProgress (1): 0.5/27 MBProgress (1): 0.8/27 MBProgress (1): 1.1/27 MBProgress (1): 1.4/27 MBProgress (1): 1.6/27 MBProgress (1): 1.9/27 MBProgress (1): 2.2/27 MBProgress (1): 2.4/27 MBProgress (1): 2.7/27 MBProgress (1): 3.0/27 MBProgress (1): 3.2/27 MBProgress (1): 3.5/27 MBProgress (1): 3.8/27 MBProgress (1): 4.1/27 MBProgress (1): 4.3/27 MBProgress (1): 4.6/27 MBProgress (1): 4.9/27 MBProgress (1): 5.1/27 MBProgress (1): 5.4/27 MBProgress (1): 5.7/27 MBProgress (1): 5.9/27 MBProgress (1): 6.2/27 MBProgress (1): 6.5/27 MBProgress (1): 6.8/27 MBProgress (1): 7.0/27 MBProgress (1): 7.3/27 MBProgress (1): 7.6/27 MBProgress (1): 7.8/27 MBProgress (1): 8.1/27 MBProgress (1): 8.4/27 MBProgress (1): 8.7/27 MBProgress (1): 8.9/27 MBProgress (1): 9.2/27 MBProgress (1): 9.5/27 MBProgress (1): 9.7/27 MBProgress (1): 10/27 MB Progress (1): 10/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 11/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 12/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 13/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 14/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 15/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 16/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 17/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 18/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 19/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 20/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 21/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 22/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 23/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 24/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 25/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 26/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27/27 MBProgress (1): 27 MB                      Uploaded to artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/0.0.5-SNAPSHOT/panda-0.0.5-20201109.191820-1.jar (27 MB at 20 MB/s)
+Uploading to artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/0.0.5-SNAPSHOT/panda-0.0.5-20201109.191820-1.pom
+Progress (1): 4.1/5.6 kBProgress (1): 5.6 kB                        Uploaded to artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/0.0.5-SNAPSHOT/panda-0.0.5-20201109.191820-1.pom (5.6 kB at 33 kB/s)
+Downloading from artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/maven-metadata.xml
+Progress (1): 448 B                   Downloaded from artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/maven-metadata.xml (448 B at 6.8 kB/s)
+Uploading to artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/0.0.5-SNAPSHOT/maven-metadata.xml
+Progress (1): 765 B                   Uploaded to artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/0.0.5-SNAPSHOT/maven-metadata.xml (765 B at 11 kB/s)
+Uploading to artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/maven-metadata.xml
+Progress (1): 391 B                   Uploaded to artifactory: http://192.168.44.44:8081/artifactory/libs-snapshot-local/pl/pandait/panda/maven-metadata.xml (391 B at 6.1 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.226 s
+[INFO] Finished at: 2020-11-09T19:18:22Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

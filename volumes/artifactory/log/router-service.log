@@ -1,0 +1,254 @@
+2020-10-30T17:28:10.526Z [jfrou] [INFO ] [198315fd28297baf] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 4024 Home: /opt/jfrog/artifactory
+2020-10-30T17:28:10.527Z [jfrou] [INFO ] [198315fd28297baf] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.17.0.2
+2020-10-30T17:28:15.532Z [jfrou] [INFO ] [198315fd28297baf] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 5 seconds with 2m0s timeout
+2020-10-30T17:28:20.537Z [jfrou] [INFO ] [198315fd28297baf] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 10 seconds with 2m0s timeout
+2020-10-30T17:28:25.540Z [jfrou] [INFO ] [198315fd28297baf] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 15 seconds with 2m0s timeout
+2020-10-30T17:28:30.542Z [jfrou] [INFO ] [198315fd28297baf] [security_keys.go:114          ] [main                ] - Master key is missing. Pending for 20 seconds with 2m0s timeout
+2020-10-30T17:28:35.545Z [jfrou] [INFO ] [198315fd28297baf] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 25 seconds with 2m0s timeout
+2020-10-30T17:28:40.549Z [jfrou] [INFO ] [198315fd28297baf] [security_keys.go:128          ] [main                ] - Cluster join: Join key is missing. Pending for 30 seconds with 2m0s timeout
+2020-10-30T17:28:42.552Z [jfrou] [INFO ] [198315fd28297baf] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-10-30T17:28:42.554Z [jfrou] [INFO ] [198315fd28297baf] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-10-30T17:28:42.554Z [jfrou] [INFO ] [198315fd28297baf] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 17c7c1098806
+2020-10-30T17:28:42.869Z [jfrou] [INFO ] [198315fd28297baf] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-10-30T17:28:44.533Z [jfrou] [INFO ] [198315fd28297baf] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-10-30T17:28:52.788Z [jfrou] [INFO ] [198315fd28297baf] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-10-30T17:28:52.789Z [jfrou] [INFO ] [198315fd28297baf] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-10-30T17:28:52.789Z [jfrou] [INFO ] [198315fd28297baf] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-10-30T17:28:52.806Z [jfrou] [INFO ] [198315fd28297baf] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 42.283 seconds. Listening on port: 8082
+2020-10-30T17:29:32.832Z [jfrou] [INFO ] [64b436ac3b8fc53c] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 82.309 seconds   ###
+###############################################################
+2020-11-04T16:42:17.827Z [jfrou] [INFO ] [52534bdd69143d56] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3626 Home: /opt/jfrog/artifactory
+2020-11-04T16:42:17.831Z [jfrou] [INFO ] [52534bdd69143d56] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.17.0.3
+2020-11-04T16:42:17.836Z [jfrou] [INFO ] [52534bdd69143d56] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2020-11-04T16:42:17.838Z [jfrou] [INFO ] [52534bdd69143d56] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-04T16:42:17.838Z [jfrou] [INFO ] [52534bdd69143d56] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 171e53968869
+2020-11-04T16:42:17.915Z [jfrou] [INFO ] [52534bdd69143d56] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-04T16:42:17.918Z [jfrou] [INFO ] [52534bdd69143d56] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-04T16:42:19.841Z [jfrou] [INFO ] [52534bdd69143d56] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-04T16:42:52.863Z [jfrou] [INFO ] [52534bdd69143d56] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-11-04T16:43:04.614Z [jfrou] [INFO ] [52534bdd69143d56] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-04T16:43:04.615Z [jfrou] [INFO ] [52534bdd69143d56] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-04T16:43:04.616Z [jfrou] [INFO ] [52534bdd69143d56] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-04T16:43:04.690Z [jfrou] [INFO ] [52534bdd69143d56] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 46.915 seconds. Listening on port: 8082
+2020-11-04T16:43:39.831Z [jfrou] [INFO ] [6b6bc3971fd5a0c0] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 82.056 seconds   ###
+###############################################################
+2020-11-04T18:36:58.185Z [jfrou] [ERROR] [6f235d50d3d31ec5] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": read tcp 127.0.0.1:49166->127.0.0.1:8040: read: connection reset by peer
+2020-11-04T18:37:00.726Z [jfrou] [ERROR] [6e59f905355d393a] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-04T18:37:27.048Z [jfrou] [INFO ] [5c20d7f9b7508877] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3623 Home: /opt/jfrog/artifactory
+2020-11-04T18:37:27.050Z [jfrou] [INFO ] [5c20d7f9b7508877] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.17.0.3
+2020-11-04T18:37:27.057Z [jfrou] [INFO ] [5c20d7f9b7508877] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-04T18:37:27.059Z [jfrou] [INFO ] [5c20d7f9b7508877] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-04T18:37:27.060Z [jfrou] [INFO ] [5c20d7f9b7508877] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 209315008b9b
+2020-11-04T18:37:27.112Z [jfrou] [INFO ] [5c20d7f9b7508877] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-04T18:37:27.114Z [jfrou] [INFO ] [5c20d7f9b7508877] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-04T18:37:29.058Z [jfrou] [INFO ] [5c20d7f9b7508877] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-04T18:38:01.371Z [jfrou] [INFO ] [5c20d7f9b7508877] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-11-04T18:38:07.844Z [jfrou] [INFO ] [5c20d7f9b7508877] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-04T18:38:07.846Z [jfrou] [INFO ] [5c20d7f9b7508877] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-04T18:38:07.846Z [jfrou] [INFO ] [5c20d7f9b7508877] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-04T18:38:07.891Z [jfrou] [INFO ] [5c20d7f9b7508877] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 40.851 seconds. Listening on port: 8082
+2020-11-04T18:38:37.910Z [jfrou] [INFO ] [4df19169a66a5a18] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 70.870 seconds   ###
+###############################################################
+2020-11-06T17:17:34.214Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3649 Home: /opt/jfrog/artifactory
+2020-11-06T17:17:34.216Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.17.0.3
+2020-11-06T17:17:34.222Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-06T17:17:34.225Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-06T17:17:34.225Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 295f5c392fed
+2020-11-06T17:17:34.314Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-06T17:17:34.318Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-06T17:17:36.214Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-06T17:18:10.936Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-06T17:18:10.939Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-06T17:18:10.939Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-06T17:18:11.037Z [jfrou] [INFO ] [3f5ecd974c84a15 ] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 36.841 seconds. Listening on port: 8082
+2020-11-06T17:18:41.087Z [jfrou] [INFO ] [776e6a3e15a1fadb] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 66.891 seconds   ###
+###############################################################
+2020-11-09T16:34:39.414Z [jfrou] [INFO ] [427693340e5204a0] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3622 Home: /opt/jfrog/artifactory
+2020-11-09T16:34:39.418Z [jfrou] [INFO ] [427693340e5204a0] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.17.0.3
+2020-11-09T16:34:39.422Z [jfrou] [INFO ] [427693340e5204a0] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-09T16:34:39.427Z [jfrou] [INFO ] [427693340e5204a0] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-09T16:34:39.427Z [jfrou] [INFO ] [427693340e5204a0] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 2b7030d6aa44
+2020-11-09T16:34:39.644Z [jfrou] [INFO ] [427693340e5204a0] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-09T16:34:39.648Z [jfrou] [INFO ] [427693340e5204a0] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-09T16:35:13.313Z [jfrou] [INFO ] [427693340e5204a0] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-09T16:35:13.314Z [jfrou] [INFO ] [427693340e5204a0] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-09T16:35:13.314Z [jfrou] [INFO ] [427693340e5204a0] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-09T16:35:13.373Z [jfrou] [INFO ] [427693340e5204a0] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 33.976 seconds. Listening on port: 8082
+2020-11-09T16:35:38.393Z [jfrou] [INFO ] [1141c6767d7c5233] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 58.996 seconds   ###
+###############################################################
+2020-11-09T16:43:42.328Z [jfrou] [ERROR] [66f42a4e0d6b83b7] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": read tcp 127.0.0.1:59268->127.0.0.1:8040: read: connection reset by peer
+2020-11-09T16:43:44.074Z [jfrou] [ERROR] [1e572a2fe7125cbe] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-09T16:43:47.074Z [jfrou] [ERROR] [2961af2bafdae3dd] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-09T18:29:13.843Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3632 Home: /opt/jfrog/artifactory
+2020-11-09T18:29:13.847Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.18.0.5
+2020-11-09T18:29:13.856Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-09T18:29:13.858Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-09T18:29:13.859Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: f4e014ffc040
+2020-11-09T18:29:13.983Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-09T18:29:13.985Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-09T18:29:33.135Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-11-09T18:29:56.879Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-09T18:29:56.881Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-09T18:29:56.883Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-09T18:29:56.964Z [jfrou] [INFO ] [b35f1426c3b6fd0 ] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 43.150 seconds. Listening on port: 8082
+2020-11-09T18:30:37.069Z [jfrou] [INFO ] [38bcb3d6bb4ccc8c] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 83.251 seconds   ###
+###############################################################
+2020-11-12T13:21:20.921Z [jfrou] [WARN ] [24f3ed2109cdc5ff] [external_services_model.go:122] [main                ] - External service 'jffe@000' node 'f4e014ffc040' contains multiple endpoints, only the first will be considered for routing! Endpoints: [port:8082 paths:"/ui/(.*)" paths:"/ui" paths:"/"  port:8082 paths:"/ui/(.*)" paths:"/ui" paths:"/" ]
+2020-11-12T13:21:20.923Z [jfrou] [WARN ] [24f3ed2109cdc5ff] [external_services_model.go:122] [main                ] - External service 'jfac@01enx8vfnzdae50p252xq61fdp' node 'f4e014ffc040' contains multiple endpoints, only the first will be considered for routing! Endpoints: [port:8082 paths:"/com\\.jfrog\\.access\\..*" paths:"access/.*"  port:8082 paths:"/com\\.jfrog\\.access\\..*" paths:"access/.*" ]
+2020-11-12T13:21:20.923Z [jfrou] [WARN ] [24f3ed2109cdc5ff] [external_services_model.go:122] [main                ] - External service 'jfmd@01enx8w0s8ff07zcp6gnvz2qqr' node 'f4e014ffc040' contains multiple endpoints, only the first will be considered for routing! Endpoints: [port:8082 paths:"/metadata/(.*)"  port:8082 paths:"/metadata/(.*)" ]
+2020-11-12T13:21:20.924Z [jfrou] [WARN ] [24f3ed2109cdc5ff] [external_services_model.go:122] [main                ] - External service 'jfrt@01enx8wffebhrp1145zxs51hnc' node 'f4e014ffc040' contains multiple endpoints, only the first will be considered for routing! Endpoints: [port:8082 paths:"/artifactory" paths:"/artifactory/(.*)" paths:"/v2/(.*)"  port:8082 paths:"/artifactory" paths:"/artifactory/(.*)" paths:"/v2/(.*)" ]
+2020-11-16T19:08:53.133Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3621 Home: /opt/jfrog/artifactory
+2020-11-16T19:08:53.140Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.18.0.2
+2020-11-16T19:08:53.146Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-16T19:08:53.147Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-16T19:08:53.148Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 8d5994a864a3
+2020-11-16T19:08:53.239Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-16T19:08:53.240Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-16T19:08:55.140Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-16T19:09:27.462Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2020-11-16T19:09:30.274Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-16T19:09:30.275Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-16T19:09:30.275Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-16T19:09:30.849Z [jfrou] [INFO ] [9dacfa9c2a9bbea ] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 37.725 seconds. Listening on port: 8082
+2020-11-16T19:10:15.924Z [jfrou] [INFO ] [1cf4058adf84992e] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 82.801 seconds   ###
+###############################################################
+2020-11-18T16:28:29.835Z [jfrou] [INFO ] [449875677c5297e7] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3504 Home: /opt/jfrog/artifactory
+2020-11-18T16:28:29.940Z [jfrou] [INFO ] [449875677c5297e7] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.18.0.5
+2020-11-18T16:28:29.952Z [jfrou] [INFO ] [449875677c5297e7] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-18T16:28:29.954Z [jfrou] [INFO ] [449875677c5297e7] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-18T16:28:29.954Z [jfrou] [INFO ] [449875677c5297e7] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 8d5994a864a3
+2020-11-18T16:28:30.809Z [jfrou] [INFO ] [449875677c5297e7] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-18T16:28:30.839Z [jfrou] [INFO ] [449875677c5297e7] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-18T16:28:32.039Z [jfrou] [INFO ] [449875677c5297e7] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-18T16:28:35.648Z [jfrou] [INFO ] [449875677c5297e7] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-18T16:28:40.710Z [jfrou] [INFO ] [449875677c5297e7] [join_executor.go:154          ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-18T16:29:45.766Z [jfrou] [INFO ] [449875677c5297e7] [join_executor.go:154          ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-11-18T16:30:31.501Z [jfrou] [FATAL] [449875677c5297e7] [bootstrap.go:101              ] [main                ] - Could not join access, err: Cluster join: Service registry ping failed; context deadline exceeded. last error: Get "http://localhost:8040/access/api/v1/system/ping": context deadline exceeded
+2020-11-20T16:37:32.545Z [jfrou] [INFO ] [190495f870ad535e] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3519 Home: /opt/jfrog/artifactory
+2020-11-20T16:37:32.554Z [jfrou] [INFO ] [190495f870ad535e] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.18.0.4
+2020-11-20T16:37:32.568Z [jfrou] [INFO ] [190495f870ad535e] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-20T16:37:32.580Z [jfrou] [INFO ] [190495f870ad535e] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-20T16:37:32.594Z [jfrou] [INFO ] [190495f870ad535e] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 8d5994a864a3
+2020-11-20T16:37:32.925Z [jfrou] [INFO ] [190495f870ad535e] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T16:37:32.953Z [jfrou] [INFO ] [190495f870ad535e] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-20T16:37:34.539Z [jfrou] [INFO ] [190495f870ad535e] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-20T16:37:37.745Z [jfrou] [INFO ] [190495f870ad535e] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-20T16:37:42.754Z [jfrou] [INFO ] [190495f870ad535e] [join_executor.go:154          ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-20T16:38:47.773Z [jfrou] [INFO ] [190495f870ad535e] [join_executor.go:154          ] [main                ] - Cluster join: Retry 15: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-11-20T16:39:33.683Z [jfrou] [INFO ] [190495f870ad535e] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-20T17:31:59.136Z [jfrou] [INFO ] [755586c742b7ca42] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3560 Home: /opt/jfrog/artifactory
+2020-11-20T17:31:59.139Z [jfrou] [INFO ] [755586c742b7ca42] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.18.0.5
+2020-11-20T17:31:59.142Z [jfrou] [INFO ] [755586c742b7ca42] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-20T17:31:59.144Z [jfrou] [INFO ] [755586c742b7ca42] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-20T17:31:59.144Z [jfrou] [INFO ] [755586c742b7ca42] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: f948a65a5f33
+2020-11-20T17:31:59.217Z [jfrou] [INFO ] [755586c742b7ca42] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T17:31:59.220Z [jfrou] [INFO ] [755586c742b7ca42] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-20T17:32:01.139Z [jfrou] [INFO ] [755586c742b7ca42] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-20T17:32:19.022Z [jfrou] [INFO ] [755586c742b7ca42] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-11-20T17:32:47.096Z [jfrou] [INFO ] [755586c742b7ca42] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-20T17:32:47.097Z [jfrou] [INFO ] [755586c742b7ca42] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T17:32:47.107Z [jfrou] [INFO ] [755586c742b7ca42] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-20T17:32:47.159Z [jfrou] [INFO ] [755586c742b7ca42] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 48.029 seconds. Listening on port: 8082
+2020-11-20T17:33:12.178Z [jfrou] [INFO ] [2b969f8823bd9592] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 73.048 seconds   ###
+###############################################################
+2020-11-20T17:39:54.963Z [jfrou] [ERROR] [7e79a6597818e307] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": read tcp 127.0.0.1:33554->127.0.0.1:8040: read: connection reset by peer
+2020-11-20T17:39:56.665Z [jfrou] [ERROR] [350a745ba5a5eeae] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-20T17:39:59.665Z [jfrou] [ERROR] [41e983dbf63405d9] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-20T18:15:51.767Z [jfrou] [INFO ] [62226578acd0e5c0] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3607 Home: /opt/jfrog/artifactory
+2020-11-20T18:15:51.937Z [jfrou] [INFO ] [62226578acd0e5c0] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.24.0.2
+2020-11-20T18:15:51.957Z [jfrou] [INFO ] [62226578acd0e5c0] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-20T18:15:52.013Z [jfrou] [INFO ] [62226578acd0e5c0] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-20T18:15:52.013Z [jfrou] [INFO ] [62226578acd0e5c0] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 04c4d06dccd0
+2020-11-20T18:15:52.083Z [jfrou] [INFO ] [62226578acd0e5c0] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T18:15:52.085Z [jfrou] [INFO ] [62226578acd0e5c0] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-20T18:15:53.774Z [jfrou] [INFO ] [62226578acd0e5c0] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-20T18:16:11.622Z [jfrou] [INFO ] [62226578acd0e5c0] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2020-11-20T18:16:50.982Z [jfrou] [INFO ] [62226578acd0e5c0] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-20T18:16:50.985Z [jfrou] [INFO ] [62226578acd0e5c0] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T18:16:50.985Z [jfrou] [INFO ] [62226578acd0e5c0] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-20T18:16:51.076Z [jfrou] [INFO ] [62226578acd0e5c0] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 59.322 seconds. Listening on port: 8082
+2020-11-20T18:17:21.101Z [jfrou] [INFO ] [677b3d1b4a202b67] [local_topology.go:213         ] [main                ] - 
+###############################################################
+###   All services started successfully in 89.347 seconds   ###
+###############################################################
+2020-11-20T18:18:01.866Z [jfrou] [ERROR] [b82b8fc30042b65 ] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": read tcp 127.0.0.1:36844->127.0.0.1:8040: read: connection reset by peer
+2020-11-20T18:18:03.150Z [jfrou] [ERROR] [2783f34650dbe200] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-20T18:18:06.151Z [jfrou] [ERROR] [5a4289ce13680cb4] [external_topology.go:82       ] [main                ] - Failed fetching external topology from Access: Get "http://localhost:8040/access/api/v1/topology": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-20T18:21:46.119Z [jfrou] [INFO ] [2f3085fc8c4790a2] [bootstrap.go:71               ] [main                ] - Router (jfrou) service initialization started. Version: 1.4.2 Revision: 04f9b835bcb908f9bb8d4743e64903e077f5b1ad PID: 3625 Home: /opt/jfrog/artifactory
+2020-11-20T18:21:46.120Z [jfrou] [INFO ] [2f3085fc8c4790a2] [bootstrap.go:74               ] [main                ] - JFrog Router IP: 172.25.0.3
+2020-11-20T18:21:46.121Z [jfrou] [INFO ] [2f3085fc8c4790a2] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - encrypted successfully
+2020-11-20T18:21:46.122Z [jfrou] [INFO ] [2f3085fc8c4790a2] [bootstrap.go:79               ] [main                ] - JFrog Router Service ID: jfrou@01enx8vtssma83q8ggq5pxb1z7
+2020-11-20T18:21:46.122Z [jfrou] [INFO ] [2f3085fc8c4790a2] [bootstrap.go:80               ] [main                ] - JFrog Router Node ID: 73a64fb2139e
+2020-11-20T18:21:46.172Z [jfrou] [INFO ] [2f3085fc8c4790a2] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T18:21:46.172Z [jfrou] [INFO ] [2f3085fc8c4790a2] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-20T18:21:48.151Z [jfrou] [INFO ] [2f3085fc8c4790a2] [config_holder.go:107          ] [main                ] - Configuration update detected
+2020-11-20T18:21:50.561Z [jfrou] [INFO ] [2f3085fc8c4790a2] [join_executor.go:154          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": dial tcp 127.0.0.1:8040: connect: connection refused
+2020-11-20T18:23:05.334Z [jfrou] [INFO ] [2f3085fc8c4790a2] [join_executor.go:188          ] [main                ] - Cluster join: Successfully joined the cluster
+2020-11-20T18:23:10.348Z [jfrou] [INFO ] [2f3085fc8c4790a2] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2020-11-20T18:23:10.366Z [jfrou] [INFO ] [2f3085fc8c4790a2] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2020-11-20T18:23:10.594Z [jfrou] [INFO ] [2f3085fc8c4790a2] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 84.483 seconds. Listening on port: 8082
+2020-11-20T18:23:55.648Z [jfrou] [INFO ] [304c35a49e75bd24] [local_topology.go:213         ] [main                ] - 
+################################################################
+###   All services started successfully in 129.536 seconds   ###
+################################################################

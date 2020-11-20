@@ -1,0 +1,7 @@
+Started by user [8mha:////4O41tps2LRB9QIC9ABXQkbMIc7S01ltnQdyK3ISIGy2vAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9gsS8lEQAm4MTyMAAAAA=[0mPandaIT
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Job1
+[Job1] $ /bin/sh -xe /tmp/jenkins8470378247493934612.sh
++ echo Hello world
+Hello world
+Finished: SUCCESS
