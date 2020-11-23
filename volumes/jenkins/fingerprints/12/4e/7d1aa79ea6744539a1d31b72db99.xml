@@ -5,8 +5,12 @@
   <fileName>Credential id=GitHub name=rafalekjan/****** (Klucz do githuba)</fileName>
   <usages>
     <entry>
+      <string>Pipeline1</string>
+      <ranges>3-6</ranges>
+    </entry>
+    <entry>
       <string>CI</string>
-      <ranges>3-23</ranges>
+      <ranges>3-24</ranges>
     </entry>
     <entry>
       <string>CodePull</string>

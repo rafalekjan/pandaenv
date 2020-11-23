@@ -1,35 +1,5 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.model.Queue_-State>
-  <counter>1</counter>
-  <items>
-    <hudson.model.Queue_-BuildableItem>
-      <actions>
-        <hudson.model.ParametersAction>
-          <safeParameters class="sorted-set"/>
-          <parameters>
-            <hudson.model.StringParameterValue>
-              <name>branch</name>
-              <description>Choose a branch to chekout</description>
-              <value>master</value>
-            </hudson.model.StringParameterValue>
-          </parameters>
-        </hudson.model.ParametersAction>
-        <hudson.model.CauseAction>
-          <causeBag class="linked-hash-map">
-            <entry>
-              <hudson.model.Cause_-UserIdCause>
-                <userId>panda</userId>
-              </hudson.model.Cause_-UserIdCause>
-              <int>1</int>
-            </entry>
-          </causeBag>
-        </hudson.model.CauseAction>
-      </actions>
-      <id>1</id>
-      <task class="hudson.model.FreeStyleProject">CI</task>
-      <inQueueSince>1605891488897</inQueueSince>
-      <buildableStartMilliseconds>1605891488942</buildableStartMilliseconds>
-      <isPending>false</isPending>
-    </hudson.model.Queue_-BuildableItem>
-  </items>
+  <counter>3</counter>
+  <items/>
 </hudson.model.Queue_-State>

@@ -6,17 +6,17 @@
 [frontends]
 
 
-  [frontends.jfmd_01enx8w0s8ff07zcp6gnvz2qqr-73a64fb2139e-0-rule0]
+  [frontends.jfmd_01enx8w0s8ff07zcp6gnvz2qqr-709d947f62d9-0-rule0]
     entryPoints = ["internal","external"]
-    backend = "jfmd_01enx8w0s8ff07zcp6gnvz2qqr-73a64fb2139e-0"
+    backend = "jfmd_01enx8w0s8ff07zcp6gnvz2qqr-709d947f62d9-0"
 
-    [frontends.jfmd_01enx8w0s8ff07zcp6gnvz2qqr-73a64fb2139e-0-rule0.routes.match]
+    [frontends.jfmd_01enx8w0s8ff07zcp6gnvz2qqr-709d947f62d9-0-rule0.routes.match]
       rule = "PathPrefixStrip: /metadata/"
 
 
 [backends]
 
-  [backends.jfmd_01enx8w0s8ff07zcp6gnvz2qqr-73a64fb2139e-0]
-    [backends.jfmd_01enx8w0s8ff07zcp6gnvz2qqr-73a64fb2139e-0.servers.server1]
+  [backends.jfmd_01enx8w0s8ff07zcp6gnvz2qqr-709d947f62d9-0]
+    [backends.jfmd_01enx8w0s8ff07zcp6gnvz2qqr-709d947f62d9-0.servers.server1]
       url = "http://localhost:8086"
 

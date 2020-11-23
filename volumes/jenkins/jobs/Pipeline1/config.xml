@@ -1,0 +1,52 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.40">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.7.2"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.7.2">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.84">
+    <script>pipeline {
+    agent {
+        label &apos;Slave&apos;
+    }
+
+
+    tools {
+        // Install the Maven version configured as &quot;M3&quot; and add it to the path.
+        maven &quot;auto_maven&quot;
+    }
+
+    stages {
+        stage(&apos;Pull&apos;) {
+            steps {
+                // Get some code from a GitHub repository
+                git credentialsId: &apos;GitHub&apos;, url: &apos;https://github.com/rafalekjan/panda_aplication.git&apos;
+        }
+            }
+        stage(&apos;Build&apos;) {
+            steps {
+                // Run Maven on a Unix agent.
+                sh &apos;mvn clean install&apos;
+            }
+        }
+        stage(&apos;Test&apos;) {
+            steps {
+                // Run Maven on a Unix agent.
+                sh &apos;mvn test&apos;
+            }
+        }
+        }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
